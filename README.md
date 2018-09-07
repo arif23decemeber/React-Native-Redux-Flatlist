@@ -4,7 +4,8 @@ In this series I use React Native version 0.56 and Redux. This is for public con
 
 src/action/index.js
 
-import {FETCH_USERS_START, FETCH_USERS_ERROR, RECEIVE_USERS, REFRESH_PAGE} from '../constants';
+<code>
+  import {FETCH_USERS_START, FETCH_USERS_ERROR, RECEIVE_USERS, REFRESH_PAGE} from '../constants';
 import axios from 'axios';
 
 
@@ -42,3 +43,4 @@ export const refresh_page = (page) => {
         }));
     }
 }
+</code>
